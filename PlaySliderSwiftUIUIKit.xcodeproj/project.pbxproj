@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		7910F84526BC7CA2000BA763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F84426BC7CA2000BA763 /* AppDelegate.swift */; };
 		7910F84726BC7CA2000BA763 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F84626BC7CA2000BA763 /* SceneDelegate.swift */; };
-		7910F84926BC7CA2000BA763 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F84826BC7CA2000BA763 /* ContentView.swift */; };
+		7910F84926BC7CA2000BA763 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F84826BC7CA2000BA763 /* StartView.swift */; };
 		7910F84B26BC7CA5000BA763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7910F84A26BC7CA5000BA763 /* Assets.xcassets */; };
 		7910F84E26BC7CA5000BA763 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7910F84D26BC7CA5000BA763 /* Preview Assets.xcassets */; };
 		7910F85126BC7CA5000BA763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7910F84F26BC7CA5000BA763 /* LaunchScreen.storyboard */; };
+		7910F85926BC7D38000BA763 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F85826BC7D38000BA763 /* ButtonView.swift */; };
+		7910F85B26BC7DB5000BA763 /* SliderFromKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F85A26BC7DB5000BA763 /* SliderFromKit.swift */; };
+		7910F85D26BDB0E1000BA763 /* ButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F85C26BDB0E1000BA763 /* ButtonViewModifier.swift */; };
+		7910F85F26BDB387000BA763 /* AlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F85E26BDB387000BA763 /* AlertModifier.swift */; };
+		7910F86126BE9BB3000BA763 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86026BE9BB3000BA763 /* GameManager.swift */; };
+		7910F86326BEA3FA000BA763 /* CustomSliderWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86226BEA3FA000BA763 /* CustomSliderWithText.swift */; };
+		7910F86526BEC26D000BA763 /* GameValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86426BEC26D000BA763 /* GameValue.swift */; };
+		7910F86726BF36EC000BA763 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86626BF36EC000BA763 /* View.swift */; };
+		7910F86926BF3769000BA763 /* SliderFromKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86826BF3769000BA763 /* SliderFromKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7910F84126BC7CA2000BA763 /* PlaySliderSwiftUI+UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlaySliderSwiftUI+UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7910F84126BC7CA2000BA763 /* PlaySliderSwiftUIUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaySliderSwiftUIUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7910F84426BC7CA2000BA763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7910F84626BC7CA2000BA763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7910F84826BC7CA2000BA763 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7910F84826BC7CA2000BA763 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		7910F84A26BC7CA5000BA763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7910F84D26BC7CA5000BA763 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7910F85026BC7CA5000BA763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7910F85226BC7CA5000BA763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7910F85826BC7D38000BA763 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7910F85A26BC7DB5000BA763 /* SliderFromKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderFromKit.swift; sourceTree = "<group>"; };
+		7910F85C26BDB0E1000BA763 /* ButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModifier.swift; sourceTree = "<group>"; };
+		7910F85E26BDB387000BA763 /* AlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModifier.swift; sourceTree = "<group>"; };
+		7910F86026BE9BB3000BA763 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		7910F86226BEA3FA000BA763 /* CustomSliderWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderWithText.swift; sourceTree = "<group>"; };
+		7910F86426BEC26D000BA763 /* GameValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameValue.swift; sourceTree = "<group>"; };
+		7910F86626BF36EC000BA763 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		7910F86826BF3769000BA763 /* SliderFromKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderFromKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +66,7 @@
 		7910F84226BC7CA2000BA763 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7910F84126BC7CA2000BA763 /* PlaySliderSwiftUI+UIKit.app */,
+				7910F84126BC7CA2000BA763 /* PlaySliderSwiftUIUIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +74,14 @@
 		7910F84326BC7CA2000BA763 /* PlaySliderSwiftUI+UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				7910F84426BC7CA2000BA763 /* AppDelegate.swift */,
-				7910F84626BC7CA2000BA763 /* SceneDelegate.swift */,
-				7910F84826BC7CA2000BA763 /* ContentView.swift */,
-				7910F84A26BC7CA5000BA763 /* Assets.xcassets */,
-				7910F84F26BC7CA5000BA763 /* LaunchScreen.storyboard */,
-				7910F85226BC7CA5000BA763 /* Info.plist */,
-				7910F84C26BC7CA5000BA763 /* Preview Content */,
+				7910F87326BF3A92000BA763 /* Modifiers */,
+				7910F87226BF3A5E000BA763 /* Managers */,
+				7910F87126BF3A49000BA763 /* ViewModels */,
+				7910F86E26BF3A1B000BA763 /* Views */,
+				7910F86D26BF39B5000BA763 /* Storyboards */,
+				7910F86C26BF3990000BA763 /* Supporting Files */,
+				7910F86B26BF393B000BA763 /* Resources */,
+				7910F86A26BF3929000BA763 /* Extensions */,
 			);
 			path = "PlaySliderSwiftUI+UIKit";
 			sourceTree = "<group>";
@@ -75,12 +94,100 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7910F86A26BF3929000BA763 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7910F86826BF3769000BA763 /* SliderFromKit.swift */,
+				7910F86626BF36EC000BA763 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7910F86B26BF393B000BA763 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7910F84A26BC7CA5000BA763 /* Assets.xcassets */,
+				7910F84C26BC7CA5000BA763 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7910F86C26BF3990000BA763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7910F85226BC7CA5000BA763 /* Info.plist */,
+				7910F84626BC7CA2000BA763 /* SceneDelegate.swift */,
+				7910F84426BC7CA2000BA763 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7910F86D26BF39B5000BA763 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7910F84F26BC7CA5000BA763 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7910F86E26BF3A1B000BA763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7910F87026BF3A34000BA763 /* UIKitViews */,
+				7910F86F26BF3A24000BA763 /* SwiftUIViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7910F86F26BF3A24000BA763 /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				7910F84826BC7CA2000BA763 /* StartView.swift */,
+				7910F86226BEA3FA000BA763 /* CustomSliderWithText.swift */,
+				7910F85826BC7D38000BA763 /* ButtonView.swift */,
+			);
+			path = SwiftUIViews;
+			sourceTree = "<group>";
+		};
+		7910F87026BF3A34000BA763 /* UIKitViews */ = {
+			isa = PBXGroup;
+			children = (
+				7910F85A26BC7DB5000BA763 /* SliderFromKit.swift */,
+			);
+			path = UIKitViews;
+			sourceTree = "<group>";
+		};
+		7910F87126BF3A49000BA763 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7910F86426BEC26D000BA763 /* GameValue.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7910F87226BF3A5E000BA763 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7910F86026BE9BB3000BA763 /* GameManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7910F87326BF3A92000BA763 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				7910F85C26BDB0E1000BA763 /* ButtonViewModifier.swift */,
+				7910F85E26BDB387000BA763 /* AlertModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7910F84026BC7CA2000BA763 /* PlaySliderSwiftUI+UIKit */ = {
+		7910F84026BC7CA2000BA763 /* PlaySliderSwiftUIUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7910F85526BC7CA5000BA763 /* Build configuration list for PBXNativeTarget "PlaySliderSwiftUI+UIKit" */;
+			buildConfigurationList = 7910F85526BC7CA5000BA763 /* Build configuration list for PBXNativeTarget "PlaySliderSwiftUIUIKit" */;
 			buildPhases = (
 				7910F83D26BC7CA2000BA763 /* Sources */,
 				7910F83E26BC7CA2000BA763 /* Frameworks */,
@@ -90,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = "PlaySliderSwiftUI+UIKit";
+			name = PlaySliderSwiftUIUIKit;
 			productName = "PlaySliderSwiftUI+UIKit";
-			productReference = 7910F84126BC7CA2000BA763 /* PlaySliderSwiftUI+UIKit.app */;
+			productReference = 7910F84126BC7CA2000BA763 /* PlaySliderSwiftUIUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7910F83C26BC7CA2000BA763 /* Build configuration list for PBXProject "PlaySliderSwiftUI+UIKit" */;
+			buildConfigurationList = 7910F83C26BC7CA2000BA763 /* Build configuration list for PBXProject "PlaySliderSwiftUIUIKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +229,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7910F84026BC7CA2000BA763 /* PlaySliderSwiftUI+UIKit */,
+				7910F84026BC7CA2000BA763 /* PlaySliderSwiftUIUIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -146,8 +253,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7910F84526BC7CA2000BA763 /* AppDelegate.swift in Sources */,
+				7910F86126BE9BB3000BA763 /* GameManager.swift in Sources */,
+				7910F85D26BDB0E1000BA763 /* ButtonViewModifier.swift in Sources */,
+				7910F86926BF3769000BA763 /* SliderFromKit.swift in Sources */,
+				7910F86526BEC26D000BA763 /* GameValue.swift in Sources */,
+				7910F86726BF36EC000BA763 /* View.swift in Sources */,
+				7910F86326BEA3FA000BA763 /* CustomSliderWithText.swift in Sources */,
 				7910F84726BC7CA2000BA763 /* SceneDelegate.swift in Sources */,
-				7910F84926BC7CA2000BA763 /* ContentView.swift in Sources */,
+				7910F85926BC7D38000BA763 /* ButtonView.swift in Sources */,
+				7910F85F26BDB387000BA763 /* AlertModifier.swift in Sources */,
+				7910F85B26BC7DB5000BA763 /* SliderFromKit.swift in Sources */,
+				7910F84926BC7CA2000BA763 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +403,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PlaySliderSwiftUI+UIKit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlaySliderSwiftUI+UIKit/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 96UHXBP52X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "PlaySliderSwiftUI+UIKit/Info.plist";
+				INFOPLIST_FILE = "PlaySliderSwiftUI+UIKit/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,10 +424,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PlaySliderSwiftUI+UIKit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlaySliderSwiftUI+UIKit/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 96UHXBP52X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "PlaySliderSwiftUI+UIKit/Info.plist";
+				INFOPLIST_FILE = "PlaySliderSwiftUI+UIKit/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7910F83C26BC7CA2000BA763 /* Build configuration list for PBXProject "PlaySliderSwiftUI+UIKit" */ = {
+		7910F83C26BC7CA2000BA763 /* Build configuration list for PBXProject "PlaySliderSwiftUIUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7910F85326BC7CA5000BA763 /* Debug */,
@@ -335,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7910F85526BC7CA5000BA763 /* Build configuration list for PBXNativeTarget "PlaySliderSwiftUI+UIKit" */ = {
+		7910F85526BC7CA5000BA763 /* Build configuration list for PBXNativeTarget "PlaySliderSwiftUIUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7910F85626BC7CA5000BA763 /* Debug */,
