@@ -21,7 +21,7 @@
 		7910F86326BEA3FA000BA763 /* CustomSliderWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86226BEA3FA000BA763 /* CustomSliderWithText.swift */; };
 		7910F86526BEC26D000BA763 /* GameValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86426BEC26D000BA763 /* GameValue.swift */; };
 		7910F86726BF36EC000BA763 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86626BF36EC000BA763 /* View.swift */; };
-		7910F86926BF3769000BA763 /* SliderFromKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86826BF3769000BA763 /* SliderFromKit.swift */; };
+		7910F86926BF3769000BA763 /* SliderFromKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910F86826BF3769000BA763 /* SliderFromKit+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		7910F86226BEA3FA000BA763 /* CustomSliderWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderWithText.swift; sourceTree = "<group>"; };
 		7910F86426BEC26D000BA763 /* GameValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameValue.swift; sourceTree = "<group>"; };
 		7910F86626BF36EC000BA763 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		7910F86826BF3769000BA763 /* SliderFromKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderFromKit.swift; sourceTree = "<group>"; };
+		7910F86826BF3769000BA763 /* SliderFromKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SliderFromKit+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		7910F86A26BF3929000BA763 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				7910F86826BF3769000BA763 /* SliderFromKit.swift */,
+				7910F86826BF3769000BA763 /* SliderFromKit+Extension.swift */,
 				7910F86626BF36EC000BA763 /* View.swift */,
 			);
 			path = Extensions;
@@ -255,7 +255,7 @@
 				7910F84526BC7CA2000BA763 /* AppDelegate.swift in Sources */,
 				7910F86126BE9BB3000BA763 /* GameManager.swift in Sources */,
 				7910F85D26BDB0E1000BA763 /* ButtonViewModifier.swift in Sources */,
-				7910F86926BF3769000BA763 /* SliderFromKit.swift in Sources */,
+				7910F86926BF3769000BA763 /* SliderFromKit+Extension.swift in Sources */,
 				7910F86526BEC26D000BA763 /* GameValue.swift in Sources */,
 				7910F86726BF36EC000BA763 /* View.swift in Sources */,
 				7910F86326BEA3FA000BA763 /* CustomSliderWithText.swift in Sources */,
