@@ -1,5 +1,5 @@
 //
-//  Extension+SliderFromKit.swift
+//  SliderFromKit.swift
 //  PlaySliderSwiftUI+UIKit
 //
 //  Created by Екатерина Боровкова on 08.08.2021.
